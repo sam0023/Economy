@@ -7,51 +7,44 @@ import {useParams} from 'react-router-dom';
 // 	{id: 1, topicId: 'np', topicName: 'National Parks'},
 
 // ];
-
-const Vishnukundins = [
-	{id: 1, topicId: 'inscriptions', topicName: 'Inscriptions'},
-	{id: 2, topicId: 'literature', topicName: 'Literarture'},
-	{id: 3, topicId: 'society', topicName: 'Society'},
-	{id: 4, topicId: 'terminology', topicName: 'Terminology'},
-];
-
-const vengi = [
-	{id: 1, topicId: 'intro', topicName: 'Intro'},
-	{id: 2, topicId: 'titles', topicName: 'Titles'},
-	{id: 3, topicId: 'inscriptions', topicName: 'Inscriptions'},
-	{id: 4, topicId: 'terminology', topicName: 'Terminology'},
-	{id: 5, topicId: 'literature', topicName: 'Literature'},
-];
-
-const Kakatiyas = [
-	{id: 1, topicId: 'terminology', topicName: 'Terminology'},
-	{id: 2, topicId: 'literarysources', topicName: 'Literary Sources'},
-	{id: 3, topicId: 'inscriptions', topicName: 'Inscriptions'},
-	{id: 4, topicId: 'l&t', topicName: 'Lakes and Temples'},
-];
-
-const vijayanagara = [
+const General = [
 	{id: 1, topicId: 'general', topicName: 'General'},
-
 ];
+
+const Banking = [
+	{id: 1, topicId: 'bankingI', topicName: 'Banking I'},
+	{id: 2, topicId: 'bankingII', topicName: 'Banking II'},
+	{id: 3, topicId: 'baselnorms', topicName: 'Basel Norms'},
+];
+// Const vijayanagara = [
+// 	{id: 1, topicId: 'general', topicName: 'General'},
+const MonetaryPolicy = [
+	{id: 1, topicId: 'monetarypolicy', topicName: 'Monetary Policy'},
+];
+
+const sectorsofeconomy = [
+	{id: 1, topicId: 'agriI', topicName: 'Agri I'},
+	{id: 2, topicId: 'agriII', topicName: 'Agri II'},
+];
+// ];
 
 const subjects = [
+	{
+		id: 'general',
+		data: General,
 
-	{
-		id: 'vengi',
-		data: vengi,
 	},
 	{
-		id: 'vishnukundins',
-		data: Vishnukundins,
+		id: 'banking',
+		data: Banking,
 	},
 	{
-		id: 'kakatiyas',
-		data: Kakatiyas,
+		id: 'monetarypolicy',
+		data: MonetaryPolicy,
 	},
 	{
-		id: 'vijayanagara',
-		data: vijayanagara,
+		id: 'sectorsofeconomy',
+		data: sectorsofeconomy,
 	},
 
 ];

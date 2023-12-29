@@ -1,17 +1,17 @@
 import React, {useState, useEffect} from 'react';
 import {useParams} from 'react-router-dom';
 import chess from '../chess.mp3';
-import VengiTopicData from '../Chapters/Vengi/VengiTopicData';
-import VishnukundinsTopicData from '../Chapters/Vishnukundins/VishnukundinsTopicsData';
-import KakatiyaTopicsData from '../Chapters/Kakatiyas/KakatiyaTopicsData';
-import VijayanagaraTopicsData from '../Chapters/Vijayanagara/VijayanagaraTopicsData';
+import BankingTopicsData from '../Chapters/Banking/BankingTopicsData';
+import MonetaryPolicyTopicsData from '../Chapters/MonetaryPolicy/MonetaryPolicyTopicsData';
+import SectorsOfEconomy from '../Chapters/SectorsOfEconomy/SectorsOfEconomyTopicsData';
+import GeneralTopicsData from '../Chapters/General/GeneralTopicsData';
 import './index.css';
 
 const subjects = {
-	vengi: VengiTopicData,
-	vishnukundins: VishnukundinsTopicData,
-	kakatiyas: KakatiyaTopicsData,
-	vijayanagara: VijayanagaraTopicsData,
+	general: GeneralTopicsData,
+	monetarypolicy: MonetaryPolicyTopicsData,
+	banking: BankingTopicsData,
+	sectorsofeconomy: SectorsOfEconomy,
 };
 const questionsList = (subjectId, subtopicId) => {
 	// Find the matching subtopic based on subjectId and subtopicId:
