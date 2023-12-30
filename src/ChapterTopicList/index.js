@@ -16,8 +16,7 @@ const Banking = [
 	{id: 2, topicId: 'bankingII', topicName: 'Banking II'},
 	{id: 3, topicId: 'baselnorms', topicName: 'Basel Norms'},
 ];
-// Const vijayanagara = [
-// 	{id: 1, topicId: 'general', topicName: 'General'},
+
 const MonetaryPolicy = [
 	{id: 1, topicId: 'monetarypolicy', topicName: 'Monetary Policy'},
 ];
@@ -25,6 +24,7 @@ const MonetaryPolicy = [
 const sectorsofeconomy = [
 	{id: 1, topicId: 'agriI', topicName: 'Agri I'},
 	{id: 2, topicId: 'agriII', topicName: 'Agri II'},
+	{id: 3, topicId: 'agriallied', topicName: 'Agri Allied'},
 ];
 // ];
 

@@ -1,5 +1,6 @@
 import AgriI from '../AgriI';
 import AgriII from '../AgriII';
+import AgriAllied from '../AgriAllied';
 
 const SectorsOfEconomy = [
 	{
@@ -9,6 +10,10 @@ const SectorsOfEconomy = [
 	{
 		topicId: 'agriII',
 		questions: AgriII,
+	},
+	{
+		topicId: 'agriallied',
+		questions: AgriAllied,
 	},
 ];
 
